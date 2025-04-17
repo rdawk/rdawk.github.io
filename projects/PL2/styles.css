@@ -1,0 +1,59 @@
+.back nav{
+    text-align: left;
+}
+.back nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.back nav li{
+    display: inline;
+}
+.back nav li a{
+    background-color: purple;
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+
+h1, p {
+    color: #333;
+}
+
+.customization, .todo-list {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: left;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.welcome{
+    border: 2px, solid, black;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 100px
+}

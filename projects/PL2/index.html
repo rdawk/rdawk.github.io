@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Interactive Page Customizer</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <div class="back">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <body>
+        <div class="welcome">
+            <h1 id="greeting">Hello User!</h1>
+            <p id="message">Welcome to your custom page.</p>
+        </div>
+
+        <div class="customization">
+            <label for="nameInput">Enter your name:</label>
+            <input type="text" id="nameInput">
+
+            <label for="messageInput">Enter a message:</label>
+            <input type="text" id="messageInput">
+
+            <label for="bgColor">Choose background color:</label>
+            <select id="bgColor">
+                <option value="white">White</option>
+                <option value="lightblue">Blue</option>
+                <option value="lightgreen">Green</option>
+                <option value="lightyellow">Yellow</option>
+                <option value="lightgray">Gray</option>
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+            </select>
+
+            <button id="applyChanges">Apply Changes</button>
+        </div>
+
+        <div class="todo-list">
+            <h2>To-Do List</h2>
+            <input type="text" id="todoInput" placeholder="Enter a new to-do item">
+            <button id="addTodo">Add To-Do</button>
+            <ol id="todoList"></ol>
+        </div>
+    </body>
+</html>

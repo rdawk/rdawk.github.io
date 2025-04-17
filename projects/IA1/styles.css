@@ -1,0 +1,51 @@
+body{
+    background-color: lightgray;
+    font-family:Georgia, serif;
+    text-align: center;
+
+}
+.back nav{
+    text-align: left;
+}
+.back nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.back nav li{
+    display: inline;
+}
+.back nav li a{
+    background-color: purple;
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+}
+h1{
+    color:red;
+    border-style: double;
+
+}
+h2{
+    color:darkgreen;
+}
+div.ol{
+    display: inline-block;
+    background-color: darkgray;
+    width:500px;
+}
+ul.myUL{
+    display: inline-block;
+    text-align:left;
+}
+ol.myOL{
+    display: inline-block;
+    text-align:left;
+}
+div.contact{
+    display: inline-block;
+    width:500px;
+    background-color: orange;
+}
+footer{
+    text-align: left;
+}

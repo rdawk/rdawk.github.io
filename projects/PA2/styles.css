@@ -1,0 +1,149 @@
+body{
+    background-color: lightblue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "header header header"
+    "sidebar content1 content1"
+    "sidebar content2 content3"
+    "footer footer footer";
+    grid-gap: 15px;
+}
+header{
+    grid-area: header;
+    text-align: center;
+}
+.back nav{
+    text-align: left;
+    justify-content: left;
+}
+.back nav ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+}
+.back nav li{
+    display: inline;
+    text-align: left;
+    
+}
+.back nav li a{
+    background-color: purple;
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+}
+header h1{
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+header p{
+    font-size: 6px;
+}
+.sidebar{
+    grid-area: sidebar;
+    text-align: center;
+}
+@keyframes linkedin{
+    from {left: -300px;}
+    to {left: 100px;}
+
+}
+.animation{
+    width: 200px;
+    height:200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    position: fixed;
+    top: 600px;
+    left: -300px;
+    animation-name: linkedin;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;   
+    transition: all 200ms ease-in-out; 
+}
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+nav li{
+    padding: 30px;
+    gap:20px;
+    font-weight: bold;
+}
+nav li a{
+    color: white;
+    background-color: purple;
+    text-shadow: 1px 1px 2px gray;
+    text-decoration: none;
+    padding: 1px 10px;
+}
+nav li a:hover{
+    color: purple;
+    background-color: white;
+}
+.content-1{
+    grid-area: content1;
+}
+.screenshot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project{
+    margin: 10px;
+    text-align: center;
+}
+.screenshot img{
+    height: auto;
+    width: 300px;
+    filter: blur(2px);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+.screenshot img:hover{
+    filter:none;
+    transform: translate(-125px, 100px) scale(3);
+    position: relative;
+    z-index: 10;
+}
+.content-2{
+    grid-area: content2;
+    text-align: center;
+}
+.content-2 ul{
+    text-align: center;
+    list-style-position: inside;
+}
+.content-2 li{
+    padding: 10px;
+}
+.content-3{
+    grid-area: content3;
+    justify-content: center;
+    text-align: center;
+}
+iframe{
+    filter:contrast(50%);
+}
+iframe:hover{
+    filter: none;
+}
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+footer hr{
+    border-color: black;
+}
+footer a{
+    text-decoration: none;
+}

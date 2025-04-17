@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(177, 199, 248);
+}
+header{
+    text-align: center;
+}
+header h1{
+    text-shadow: 3px 3px 6px white;
+}
+.back nav{
+    text-align: left;
+}
+.back nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.back nav li{
+    display: inline;
+}
+.back nav li a{
+    background-color: purple;
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+}
+.screenshot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project{
+    margin: 10px;
+    text-align: center;
+}
+.screenshot img{
+    height: 175px;
+    width: 300px;
+    border: 1px solid black;
+}
+.screenshot a{
+    text-decoration: none;
+    color: black;
+}
+#click{
+    font-size: 12px;
+}
+.content-2{
+    text-align: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-2 ul{
+    text-align: center;
+    list-style-position: inside;
+}
+.content-2 li{
+    padding: 10px;
+}
+.content-3{
+    justify-content: center;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer hr{
+    border-color: black;
+}
+footer a{
+    text-decoration: none;
+}

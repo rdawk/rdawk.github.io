@@ -1,0 +1,96 @@
+html{
+    min-height: 100%;
+}
+body{
+    background:linear-gradient(to right bottom, purple, pink, rgb(255, 189, 68))
+}
+.coverart{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.coverart>img:hover{
+    transform: translate(0px,50px) scale(1.3, 1.3);
+}
+header{
+    background:linear-gradient(to right bottom,lightpink, magenta);
+    padding: 5px 0;
+    margin:0;
+}
+header h1{
+    color: white;
+    text-shadow: 3px 3px 6px magenta;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-shadow: 3px 3px 6px magenta;
+}
+nav li a:hover{
+    color:darkblue;
+    background-color:lightsalmon ;
+}
+table{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+}
+th, td{
+    padding: 10px;
+}
+.albuminfo h2{
+    text-align: center;
+    text-shadow: 3px 3px 6px white;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+hr{
+    border-color: black;
+}
+.story h1, .location h1{
+    color: black;
+    text-shadow: 3px 3px 6px white;
+    text-align: center;
+}
+.story img{
+    float: right;
+}
+.story p, .location p{
+    padding: 10px;
+    text-shadow: 1px 1px 10px white;
+}
+.location{
+    margin-top: 210px;
+}
+#right{
+    text-align: right;
+}
+#fire{
+    position:relative;
+    width: 400px;
+    height: auto;
+}
+#store{
+    position: absolute;
+    right: 50px;
+    width:400px;
+    height: auto;
+}
