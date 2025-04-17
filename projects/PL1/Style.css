@@ -1,0 +1,60 @@
+*{
+    background-color: #00426e;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    color:white;
+}
+.back nav{
+    text-align: left;
+}
+.back nav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.back nav li{
+    display: inline;
+}
+.back nav li a{
+    background-color: purple;
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+}
+a{
+    color:rgb(41, 250, 41);
+}
+a:hover{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+h1,h4,h5{
+    color: orange;
+}
+h3 b{
+    color:orange;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    font-size: 18px;
+    margin:auto;
+}
+.player{
+    float:left;
+    width: 320px;
+    height: 224px;
+}
+.lineup p b{
+    color:rgb(255, 212, 133);
+}
+footer{
+    text-align: center;
+}
