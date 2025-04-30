@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>Sports</title>
+    </head>
+    <header>
+        <h1>Pittsburgh Sports</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="wte.html">Where to Eat</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+            <p style="text-align: center;">If there is one thing that people from Pittsburgh love, it's sports. Our city is founded on black and gold and it seems to run through almost every Pittsburgher's veins. Check out our sports teams, and maybe get some tickets below!</p>
+            <div class="sportgrid">
+                <div class="steeler">
+                    <h2>Pittsburgh Steelers</h2>
+                    <img src="img/steeler.png">
+                    <div class="sportdesc">
+                        <p><b>Head Coach: </b> Mike Tomlin</p>
+                        <p><b>Founded: </b> 1933</p>
+                        <p><b>Venue: </b>Acrisure Stadium</p>
+                        <p><b>Super Bowl Wins: </b>6</p>
+                        <button onclick="steelerAbout()">About</button>
+                        <div id="steelerabout" style="display: none; text-align: center;">
+                            <p>The Steelers were founded in 1933 by Arthur J. Rooney, and were orignally called the Pittsburgh Pirates. They changed their name to the Steelers in 1940. The 1970s was the best time for the Steelers, winning four Super Bowls and making playoffs 8 times. </p>
+                        </div>
+                    </div>
+                    <a href="https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers" target="_blank"><p>Learn More</p></a>
+                    <a href="https://www.steelers.com/tickets/" target="_blank"><p>Get Tickets</p></a>
+
+                </div>
+                <div class="pirate">
+                    <h2>Pittsburgh Pirates</h2>
+                    <img src="img/pirate.png" style="width:auto; height: 250px;">
+                    <div class="sportdesc">
+                        <p><b>General Manager: </b>Derek Shelton </p>
+                        <p><b>Founded: </b> 1881</p>
+                        <p><b>Venue: </b>PNC Park</p>
+                        <p><b>World Series Wins: </b>5</p>
+                        <button onclick="pirateAbout()">About</button>
+                        <div id="pirateabout" style="display: none; text-align: center;">
+                            <p>The Pirates were founded in 1881 by Denny McKnight and were orignally called the Pittsburgh Alleghenys. The name Pirates came along just 10 years later in 1891. The Pirates have five world series wins in 1909, 1925, 1960, 1971, and 1979. </p>
+                        </div>
+                    </div>
+                    <a href="https://www.espn.com/mlb/team/_/name/pit/pittsburgh-pirates" target="_blank"><p>Learn More</p></a>
+                    <a href="https://www.mlb.com/pirates/tickets/single-game-tickets" target="_blank"><p>Get Tickets</p></a>
+
+                </div>
+                <div class="pens">
+                    <h2>Pittsburgh Penguins</h2>
+                    <img src="img/pens.png">
+                    <div class="sportdesc">
+                        <p><b>Head Coach: </b>Mike Sullivan </p>
+                        <p><b>Founded: </b> 1967</p>
+                        <p><b>Venue: </b>PPG Paints Arena</p>
+                        <p><b>Stanley Cup Wins: </b>5</p>
+                        <button onclick="pensAbout()">About</button>
+                        <div id="pensabout" style="display: none; text-align: center;">
+                            <p>The Penguins were foundd in 1967 during the NHL's expansion. Unlike the Steelers and Pirates, they were orignally founded as the Penguins. They have five Stanley Cup wins in 1991, 1992, 2009, 2016, and 2017. The Penguins are tied for the most Stanley Cup championships among the non-original six teams.</p>
+                        </div>
+                    </div>
+                    <a href="https://www.espn.com/nhl/team/_/name/pit/pittsburgh-penguins" target="_blank"><p>Learn More</p></a>
+                    <a href="https://www.nhl.com/penguins/tickets/" target="_blank"><p>Get Tickets</p></a>
+                </div>
+            </div>
+    </body>
+        <div class="footer">
+            <footer>
+                <hr id="break">
+                <p>Created by Ryan Dawkin</p>
+                <p><b>Email: </b><a href="mailto:rhd5131@psu.edu">rhd5131@psu.edu</a></p>
+            </footer>
+        </div>
+</html>

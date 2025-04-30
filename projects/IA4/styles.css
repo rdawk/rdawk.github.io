@@ -1,0 +1,222 @@
+/* Universal */
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color:gold;
+    margin: 0;
+    padding: 5px 0;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+    color: black;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 15px;
+    margin: 0;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-shadow: 3px 3px 6px yellow;
+}
+nav li a:hover{
+    color:gold;
+    background-color:black ;
+    padding: 10px 20px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.content{
+    height: 100vh;
+}
+body h1{
+    text-align: center;
+}
+#break{
+    border-top: 1px solid white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.footsmall{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer{
+    height: 100px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+footer a{
+    color:aqua;
+}
+/* About */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img1 desc1"
+    "desc2 img2";
+    margin:20px;
+    text-align: center;
+}
+.grid p{
+    font-size: 18px;
+}
+.img1{
+    grid-area: img1;
+}
+.desc1{
+    grid-area: desc1;
+}
+.img2{
+    grid-area: img2;
+}
+.desc2{
+    grid-area: desc2;
+}
+.grid img{
+    width: 80%;
+    height: auto;
+}
+/*Events */
+.eventtable table{
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+}
+.eventtable td, th, tr{
+    padding: 10px;
+    border: 1px solid white;
+}
+.eventtable a{
+    color:aqua;
+}
+.eventtable a:hover{
+    color: green;
+}
+.eventhm ul{
+    text-align: center;
+    list-style-position: inside;
+}
+.eventhm li{
+    padding: 5px;
+}
+/* Where to Eat */
+.restbootsm{
+    display: none;
+}
+.restbootmd{
+    display:none;
+}
+/*Sports */
+.sportgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "steeler pirate pens";
+    margin: 20px;
+    text-align: center;
+}
+.steeler{
+    grid-area: steeler;
+}
+.pirate{
+    grid-area: pirate;
+}
+.pens{
+    grid-area: pens;
+}
+.sportgrid img{
+    width: 250px;
+    height: auto;
+    filter: brightness(1.2)
+}
+.sportdesc{
+    padding: 20px;
+    text-align: left;
+}
+.sportgrid a{
+    color: aqua;
+}
+.sportgrid img:hover{
+    transform: scale(1.5, 1.5);
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+
+}
+/* Contact */
+.contact{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.submission{
+    color:black;
+}
+.form-group{
+    padding: 5px;
+}
+
+/*Responsive */
+@media all and (max-width:800px){
+    .sportgrid{
+        display: inline;
+    }
+    .grid{
+        display: inline;
+    }
+    .restboot{
+        display: none;
+    }
+    .restbootsm{
+        display: inline;
+    }
+    header{
+        text-align: center;
+    }
+}
+@media (min-width: 801px) and (max-width: 1400px){
+    .restboot{
+        display: none;
+  }
+    .restbootmd{
+        display: inline;
+  }
+}
